@@ -446,7 +446,6 @@ body {
 .footer-info-socials li:hover,
 .footer-info-socials li:focus {
     background-color: var(--accent-color);
-    fill: white;
     cursor: pointer;
 }
 

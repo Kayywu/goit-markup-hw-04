@@ -114,6 +114,10 @@ body {
     margin-right: 10px;
  }
 
+ .icon-contact [href=href="./Images/symbol-defs.svg#icon-envelop"] {
+    fill: red;
+ }
+
 .icon-contact:hover {
     color: var(--accent-color);
     fill: var(--accent-color);

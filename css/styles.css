@@ -496,16 +496,16 @@ body {
 
 .projects-images figcaption {
     border-bottom: 1px solid #eeeeee;
-    border-right: 1px soild #eeeeee;
+    border-right: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
 }
 
 .project-title {
     font-size: 18px;
     font-weight: 700;
-    line-height: 2;
+    line-height: 36px;
     vertical-align: top;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.06em;
     padding-top: 20px;
     padding-bottom: 4px;
     padding-left: 24px;

@@ -100,24 +100,30 @@ body {
 }
 
 
-.links:hover {
+.main-contact a:hover {
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
-.links:focus {
-    color: var(--accent-color)
+.main-contact a:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
 }
+ .icon-contact {
+    margin-right: 10px;
+ }
 
- 
-
+.icon-contact:hover {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
 
 /*MAIN*/
 
 
 .first-main-page {
-    background-color: var(--background-dark-color);
-    background-image:
-     url(../Images/background-image.jpg);
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: url(../Images/background-image.jpg);
     padding: 200px 0;
 }
 
@@ -157,12 +163,24 @@ body {
     gap: 30px;
 }
 
+.second-main-page-list div {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+
 .second-main-page-list h3 { 
     font-size: 14px;
     font-weight: 700;
     line-height: auto;
     text-transform: uppercase;
     letter-spacing: 0.3px;
+    margin-bottom: 10px;
 }
 
 .second-main-page-list p {
@@ -201,6 +219,30 @@ body {
     padding-bottom: 94px;
 }
 
+.team-section figcaption > ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 30px;
+    fill: var(--descriptions-color);
+}
+
+.team-social-icons > li {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.team-social-icons li:hover,
+.team-social-icons li:active {
+    background-color: var(--accent-color);
+    cursor: pointer;
+    fill: var(--white-color);
+}
+
+
 
 .team-caption {
     font-weight: 700;
@@ -223,6 +265,8 @@ body {
 
 .team-worker img {
     display: block;
+    max-height: 100%;
+    height: auto;
 }
 
 .team-name {
@@ -243,9 +287,11 @@ body {
     padding-bottom: 30px;
 }
 
-.img {
-    max-height: 100%;
-    height: auto;
+.team-social-icons li {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -300,7 +346,6 @@ body {
 }
 
 
-
 .adress-link:hover {
     color: var(--accent-color);
 }
@@ -313,6 +358,46 @@ body {
 }
 .adress-tel:focus {
     color: var(--accent-color);
+}
+
+
+
+.footer-info-socials {
+    display: flex;
+}
+
+.adress-info {
+    margin-right: 70px;
+    margin-bottom: 60px;
+}
+
+.footer-socials h4 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.footer-info-socials li {
+    width: 44px;
+    height: 44px;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    fill: var(--white-color);
+    gap: 10px;
+}
+
+.footer-info-socials li:hover,
+.footer-info-socials li:focus {
+    background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 /* PORTFOLIO */

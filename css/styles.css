@@ -313,6 +313,7 @@ body {
     list-style: none;
     display: flex;
     gap: 30px;
+    fill: var(--client-list-color);
 }
 
 .clients-list li {
@@ -327,12 +328,8 @@ body {
     padding-right: 32px;
     padding-top: 17.71px;
     padding-bottom: 14.25px;
-    fill: var(--client-list-color);
 }
 
-.client-logo {
-    fill: var(--client-list-color)
-}
 
 .clients-list li:hover,
 .clients-list li:focus {

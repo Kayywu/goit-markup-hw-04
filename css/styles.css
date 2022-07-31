@@ -447,6 +447,7 @@ body {
     align-items: center;
     gap: 10px;
     display: flex;
+    fill: var(--white-color);
 }
 
 .footer-info-socials li:hover,

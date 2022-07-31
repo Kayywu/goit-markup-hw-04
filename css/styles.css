@@ -234,15 +234,16 @@ body {
     gap: 10px;
     justify-content: center;
     padding-bottom: 30px;
-    fill: var(--descriptions-color);
 }
 
-.team-social-icons > li {
+.team-social-icons li {
     width: 44px;
     height: 44px;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 50%;
+    fill: var(--client-list-color);
 }
 
 .team-social-icons li:hover,
@@ -297,13 +298,6 @@ body {
     padding-bottom: 30px;
 }
 
-.team-social-icons li {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .container-our-clients h2 {
     font-family: Roboto;
@@ -333,11 +327,15 @@ body {
     padding-right: 32px;
     padding-top: 17.71px;
     padding-bottom: 14.25px;
-    fill: var(--clients-list-color);
+    fill: var(--client-list-color);
+}
+
+.client-logo {
+    fill: var(--client-list-color)
 }
 
 .clients-list li:hover,
-.client-list li:focus {
+.clients-list li:focus {
     border: 1px solid var(--accent-color);
     fill: var(--accent-color);
     cursor: pointer;
